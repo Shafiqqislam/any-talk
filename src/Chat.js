@@ -65,7 +65,7 @@ const Chat = () => {
             </div>
             <div className="chat__input">
                 <form>
-                    <input value={input} onChange={(e) => setInput(e.target.value)} placeholder="iMessage" type="text" />
+                    <input value={input} onChange={(e) => setInput(e.target.value)} placeholder="Enter message" type="text" />
                     <button onClick={sendMessage}>Send Message</button>
                 </form>
                 <IconButton>
