@@ -2,7 +2,7 @@ import { Button } from '@material-ui/core';
 import React from 'react';
 import { auth, provider } from './features/firebase';
 import "./Login.css"
-import logo from "./anyTalk.jpg";
+import logo from "./any-talk1.jpg";
 
 const Login = () => {
     const signIn=()=>{
@@ -14,7 +14,7 @@ const Login = () => {
                 <img src={logo} alt="" />
                 <h1 className="logo__name">AnyTalk</h1>
             </div>
-            <Button onClick={signIn}>Sign In</Button>
+            <Button onClick={signIn}>Log In</Button>
         </div>
     );
 };
